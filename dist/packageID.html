@@ -3,16 +3,41 @@
   <head>
     <title>Package ID</title>
     <link rel="icon" type="image/x-ico" href="img/icon/title_icon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./packageId.css">
+    <script type="text/javascript" src="./jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./packageid.js"></script>
+    <script src="./main.min.js"></script>
   </head>
+
+
+
   <body>
-    <div class="loading"><img class="gray" src="img/loading/bg.png" alt="background"><img class="banner" src="img/loading/banner.png" alt="banner"><img class="title" src="img/loading/title.png" alt="title"><img class="character" src="img/loading/kevin.png" alt="kevin"></div>
-    <div class="home">
-      <div class="navbar"> 
-        <div class="chat"></div>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/main.min.js"></script>
+
+
+    
+      請輸入包裹ID:
+      <input type='text' id='pkid'/> 
+      <input type='button' id='enter' name='submit' value='送出' onclick="search(pkid);"/>
+   
+
+
+    &emsp;
+
+    <table id="table">
+      <thead id="thead"></thead>
+         <tr>
+           <th>包裹ID</th>
+           <th>顧客ID</th>
+           <th>收件者姓名</th>
+           <th>收件者電話</th>
+           <th>是否跨國</th>
+           <th>是否有害</th>
+           <th>材積</th>
+           <th>重量</th>
+           <th>運費</th>
+         </tr>
+      <tbody id="tbody"></tbody>
+   </table>
+ 
   </body>
 </html>

@@ -371,7 +371,7 @@ th, td {
 }
 .foot__img {
   position: absolute;
-  bottom: 0;
+  bottom: -20px;
   right: 0;
 }
 

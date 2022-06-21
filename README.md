@@ -6,3 +6,9 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 4. Search MVP Customer：包含查詢年度運費最多及年度寄件最多的客戶(分別前15名)
 5. Serch Delivery：可以依照卡車查詢包裹現在的狀態
 6. Profile：能夠看到客戶自己的相關資訊
+
+# E-R Model
+# Relational schema
+# select count(*)
+# The code for each queries
+# queries in section 4

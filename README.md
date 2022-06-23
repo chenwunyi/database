@@ -40,7 +40,7 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 ![image](https://user-images.githubusercontent.com/75972255/175321174-2206d226-a850-4f1d-b38b-ceae387c7253.png)
 
 •	Find those packages that were not delivered within the promised time
-![image](https://user-images.githubusercontent.com/75972255/175339798-8474b49f-6404-430d-bc7c-7dfa58363125.png)
+![image](https://user-images.githubusercontent.com/75972255/175342428-5e122e2e-e018-4c35-b174-debf87d2bdfa.png)
 
 •	包裹編號查詢，因為有輸入所以只有一筆
 ![messageImage_1655994426988](https://user-images.githubusercontent.com/75972255/175338388-6788087e-2b75-43d3-bddc-66e10b407305.jpg)

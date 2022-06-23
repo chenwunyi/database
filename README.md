@@ -19,6 +19,9 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 ![image](https://user-images.githubusercontent.com/75972255/175311598-4c5e045d-dc59-4990-9efc-de853e7182a2.png)
 
 # The code for each queries
+•	Find the customer who has shipped the most packages in the past year.
+![image](https://user-images.githubusercontent.com/75972255/175337141-7da2aa01-1454-41c9-a842-1cd3bd8b4a4d.png)
+
 # queries in section 4
 •	Find the customer who has shipped the most packages in the past year.
 

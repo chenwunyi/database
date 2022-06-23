@@ -11,6 +11,7 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 ![image](https://user-images.githubusercontent.com/75972255/174860487-f85de42a-1fbf-4960-ba22-584792d09c9e.png)
 
 # E-R Model
+![delivery_relational](https://user-images.githubusercontent.com/75972255/175331709-78f7c627-2100-47b1-848c-8ab977ce79d6.jpg)
 # Relational schema
 # select count(*)
 ![image](https://user-images.githubusercontent.com/75972255/175311516-ec3a4c74-b367-451d-85eb-1db9bbbc0009.png)

@@ -25,6 +25,8 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 ![image](https://user-images.githubusercontent.com/75972255/175337525-af676410-c73a-4400-988c-1bf850bef9df.png)
 •	查詢卡車
 ![image](https://user-images.githubusercontent.com/75972255/175340141-66a1da1d-ed07-4a90-8685-5982e1c61351.png)
+•	delay
+![image](https://user-images.githubusercontent.com/75972255/175341982-e37d7d89-864d-4a4b-b147-bc75e4c137fc.png)
 
 
 

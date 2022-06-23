@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Fee</title>
+    <title>MVP Customer</title>
     <link rel="icon" type="image/x-ico" href="img/icon/title_icon.png">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -10,11 +10,111 @@
     <div class="home">
       <div class="c-game">
         <div class="c-game__desc">
-          <div class="c-game__desc --head">今年寄件最多的客戶(前十五人)</div>
+          <div class="c-game__desc --head">今年運費最多的客戶(前十人)</div>
         </div>
-        <table class="c-table" id="myTable">
+        <table class="c-table" id="feeTable">
           <thead>
             <tr>
+              <th>排序</th>
+              <th>客戶ID</th>
+              <th>姓名</th>
+              <th>是否常客</th>
+              <th>付款方式</th>
+              <th>累計運費</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>1457785</td>
+              <td>王二</td>
+              <td>是</td>
+              <td>月付</td>
+              <td>5000</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>1565454</td>
+              <td>羅武</td>
+              <td>是</td>
+              <td>月付</td>
+              <td>1600</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>1456545</td>
+              <td>陳玟一</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>1500</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>1565445</td>
+              <td>洪賜</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>1200</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>2123212</td>
+              <td>劉啟</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>1000   </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>1232484</td>
+              <td>馮十</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>980</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>2356598</td>
+              <td>蔡時已</td>
+              <td>是</td>
+              <td>付現</td>
+              <td>850</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>1598848</td>
+              <td>林事爾</td>
+              <td>否</td>
+              <td>刷卡</td>
+              <td>150</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>1235454</td>
+              <td>魏把</td>
+              <td>否</td>
+              <td>付現</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>8989562</td>
+              <td>寧九</td>
+              <td>否</td>
+              <td>付現</td>
+              <td>90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="c-game">
+        <div class="c-game__desc">
+          <div class="c-game__desc --head">今年寄件最多的客戶(前十人)</div>
+        </div>
+        <table class="c-table" id="pNumTable">
+          <thead>
+            <tr>
+              <th>排序</th>
               <th>客戶ID</th>
               <th>姓名</th>
               <th>是否常客</th>
@@ -23,7 +123,86 @@
             </tr>
           </thead>
           <tbody>
-            <tr></tr>
+            <tr>
+              <td>1</td>
+              <td>1456545</td>
+              <td>陳玟一</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>1232484</td>
+              <td>馮十</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>1457785</td>
+              <td>王二</td>
+              <td>是</td>
+              <td>月付</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>1565445</td>
+              <td>洪賜</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>1565454</td>
+              <td>羅武</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>31</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>2123212</td>
+              <td>劉啟</td>
+              <td>是</td>
+              <td>刷卡</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>2356598</td>
+              <td>蔡時已</td>
+              <td>是</td>
+              <td>付現</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>1598848</td>
+              <td>林事爾</td>
+              <td>否</td>
+              <td>刷卡</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>1898874</td>
+              <td>黃三</td>
+              <td>否</td>
+              <td>付現</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>1235454</td>
+              <td>魏把</td>
+              <td>否</td>
+              <td>付現</td>
+              <td>2</td>
+            </tr>
           </tbody>
         </table>
       </div>

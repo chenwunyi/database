@@ -10,8 +10,8 @@ $dbname = "410977010";
 if (!$conn) {
   die("連接失敗 : " . mysqli_error($conn));
 } else {
-  $sql = "SELECT customer.id, customer.name, customer.frequency, customer.payment, count(package.id)
-    FROM customer, package GROUP BY package.customer_id order by count(package.id) desc";
+  $sql = "SELECT customer.customer_id, customer.name, customer.frequency, customer.payment, count(package.id)
+  FROM customer, package WHERE customer.customer_id = package.customer_id GROUP BY package.customer_id order by count(package.id) desc";
 
 
   $result = mysqli_query($conn, $sql);
@@ -27,4 +27,3 @@ if (!$conn) {
   $json = urldecode(json_encode($data));
   echo $json;
 }
-?>

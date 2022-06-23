@@ -14,7 +14,7 @@ $dbname = "410977010";
 if (!$conn) {
     die("連接失敗 : " . mysqli_error($conn));
 } else {
-    $sql = "SELECT package.id, package.customer_id, package.receivername, package.receiverphone, locate_record.truck, time_record.truck
+    $sql = "SELECT package.id, package.customer_id, package.receivername, package.receiverphone, locate_record.international_transportation, time_record.international_transportation
     FROM package, locate_record,time_record " ;
 
 

@@ -1,9 +1,6 @@
 <?php
 //$host="127.0.0.1";
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: *");
-header("Access-Control-Allow-Headers: Origin, Methods, Content-Type");
-  
+
 $host = "140.127.74.186";
 $username = "410977010";
 $password = "410977010";
@@ -13,9 +10,7 @@ $dbname = "410977010";
 if (!$conn) {
   die("連接失敗 : " . mysqli_error($conn));
 } else {
-  $sql = "SELECT customer.customer_id, customer.name, customer.frequency, customer.payment, customer.sum
-  FROM customer order by customer.sum desc";
-
+  $sql = "SELECT delay FROM time_record WHERE delay = 1";
 
 
   $result = mysqli_query($conn, $sql);
@@ -26,7 +21,7 @@ if (!$conn) {
     array_push($data, array('customer.name' => $row[1]));
     array_push($data, array('customer.frequency' => $row[2]));
     array_push($data, array('customer.payment' => $row[3]));
-    array_push($data, array('customer.sum' => $row[4]));
+    array_push($data, array('count' => $row[4]));
   }
   $json = urldecode(json_encode($data));
   echo $json;

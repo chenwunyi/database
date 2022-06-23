@@ -8,36 +8,25 @@
     <script type="text/javascript" src="./packageid.js"></script>
     <script src="./main.min.js"></script>
   </head>
-
-
-
-  <body>
-
-
-    
-      請輸入包裹ID:
-      <input type='text' id='pkid'/> 
-      <input type='button' id='enter' name='submit' value='送出' onclick="search(pkid);"/>
-   
-
-
-    &emsp;
-
+  <body>請輸入包裹ID:
+    <input id="pkid" type="text">
+    <input id="enter" type="button" name="submit" value="送出" onclick="search();">
     <table id="table">
       <thead id="thead"></thead>
-         <tr>
-           <th>包裹ID</th>
-           <th>顧客ID</th>
-           <th>收件者姓名</th>
-           <th>收件者電話</th>
-           <th>是否跨國</th>
-           <th>是否有害</th>
-           <th>材積</th>
-           <th>重量</th>
-           <th>運費</th>
-         </tr>
+      <tbody>
+        <tr>
+          <th>包裹ID</th>
+          <th>顧客ID</th>
+          <th>收件者姓名</th>
+          <th>收件者電話</th>
+          <th>是否跨國</th>
+          <th>是否有害</th>
+          <th>材積</th>
+          <th>重量</th>
+          <th>運費</th>
+        </tr>
+      </tbody>
       <tbody id="tbody"></tbody>
-   </table>
- 
+    </table>
   </body>
 </html>

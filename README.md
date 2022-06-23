@@ -1,6 +1,6 @@
 # database
 dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢的內容選擇：
-![image](https://user-images.githubusercontent.com/75972255/175311023-1ea57aa1-818b-4137-b76a-402c21a68ae0.png)
+![image](https://user-images.githubusercontent.com/75972255/175318928-a9a71e09-4475-4201-8f92-f99de2b7964b.png)
 1. Serch by Package ID：利用包裹編號查詢，查詢結果包含包裹的相關資料
 2. Serch Sent Out：利用日曆查詢客戶當天寄出的包裹(建議搜尋#幾月幾號)
 3. Delay：查詢延誤送達的包裹(僅該客戶)

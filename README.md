@@ -15,8 +15,14 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 # Relational schema
 ![delivery_relational_schema](https://user-images.githubusercontent.com/75972255/175333679-2122ed43-9cf1-42a9-8761-88928be75fd2.jpg)
 # select count(*)
-![image](https://user-images.githubusercontent.com/75972255/175311516-ec3a4c74-b367-451d-85eb-1db9bbbc0009.png)
-![image](https://user-images.githubusercontent.com/75972255/175311598-4c5e045d-dc59-4990-9efc-de853e7182a2.png)
+![messageImage_1655999778857](https://user-images.githubusercontent.com/75972255/175343024-5df1adb1-1cce-4bb9-99e1-a3db78a8f603.jpg)
+![messageImage_1655999802558](https://user-images.githubusercontent.com/75972255/175343025-026e6725-845a-4b76-a1bc-a89f6bf1a137.jpg)
+![messageImage_1655999632061](https://user-images.githubusercontent.com/75972255/175343007-45bf2365-36b0-4071-a77f-df4258700393.jpg)
+![messageImage_1655999663677](https://user-images.githubusercontent.com/75972255/175343014-17afae96-acb0-490f-889b-9720d0889166.jpg)
+![messageImage_1655999695357](https://user-images.githubusercontent.com/75972255/175343016-46f1fdb3-e48e-4d1d-ae41-d7cb2dc91a28.jpg)
+![messageImage_1655999717272](https://user-images.githubusercontent.com/75972255/175343018-72e66280-b46d-4d47-8711-df91821d5e5c.jpg)
+![messageImage_1655999748111](https://user-images.githubusercontent.com/75972255/175343022-374ce4a1-e896-45d5-8bc9-227e1b9166fc.jpg)
+
 
 # The code for each queries
 •	Find the customer who has shipped the most packages in the past year.
@@ -40,7 +46,7 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 ![image](https://user-images.githubusercontent.com/75972255/175321174-2206d226-a850-4f1d-b38b-ceae387c7253.png)
 
 •	Find those packages that were not delivered within the promised time
-![image](https://user-images.githubusercontent.com/75972255/175342428-5e122e2e-e018-4c35-b174-debf87d2bdfa.png)
+![image](https://user-images.githubusercontent.com/75972255/175342683-37544550-a729-4595-9ea2-94bf516c8509.png)
 
 •	包裹編號查詢，因為有輸入所以只有一筆
 ![messageImage_1655994426988](https://user-images.githubusercontent.com/75972255/175338388-6788087e-2b75-43d3-bddc-66e10b407305.jpg)

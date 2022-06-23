@@ -26,7 +26,12 @@ dist資料夾中的index.html是主頁，進入主頁後，可以依照要查詢
 
 
 # queries in section 4
+
+• 查詢卡車編號，沒有送達時間的就是尚未送達，然後因為它是出事了，所以就是出事了，然後前一個送達時間就是前一筆運送的包裹
+![messageImage_1655992494508](https://user-images.githubusercontent.com/75972255/175338710-0e8f63f4-755d-465e-aef0-1b32e2490584.jpg)
 •	Find the customer who has shipped the most packages in the past year.
 
 •	Find the customer who has spent the most money on shipping in the past year.
 ![image](https://user-images.githubusercontent.com/75972255/175321174-2206d226-a850-4f1d-b38b-ceae387c7253.png)
+•	包裹編號查詢，因為有輸入所以只有一筆
+![messageImage_1655994426988](https://user-images.githubusercontent.com/75972255/175338388-6788087e-2b75-43d3-bddc-66e10b407305.jpg)
